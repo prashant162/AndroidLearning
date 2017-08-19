@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidLearning</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string-array name="actions">
+        <item>Do Nothing</item>
+        <item>Visit Deltaprogram.us</item>
+        <item>Call Someone</item>
+        <item>Map of YETspaceATX</item>
+        <item>Take picture</item>
+        <item>Edit first contact</item>
+    </string-array>
+</resources>
