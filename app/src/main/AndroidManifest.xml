@@ -38,7 +38,10 @@
         <activity
             android:name=".ListViewActivity"
             android:exported="true" />
-        <activity android:name=".MainActivity" android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity android:name=".FragmentCommunicationActivity" android:exported="true"></activity>
     </application>
 
 </manifest>
