@@ -34,19 +34,15 @@
             android:textAppearance="?android:textAppearanceLarge"
             android:layout_marginTop="20dp"
             android:gravity="center"/>
-        <fragment
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:id="@+id/fragment_one"
-            android:name="com.vemergetech.androidlearning.FragmentOne"
-            android:layout_marginTop="10dp"></fragment>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/frame_container"></FrameLayout>
 
-        <fragment
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:id="@+id/fragment_two"
-            android:name="com.vemergetech.androidlearning.FragmentTwo"
-            android:layout_marginTop="20dp"></fragment>
+            android:id="@+id/second_frame_container"></FrameLayout>
 
     </LinearLayout>
 
